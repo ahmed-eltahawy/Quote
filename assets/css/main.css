@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+div{
+    text-align: center;
+    display: block;
+}
+h1 {
+    color: #000;
+    font-size: 80px;
+    font-family: Impact;
+    padding-bottom: 15px;
+}
+
+button {
+    width: 250px;
+    height: 80px;
+    background-color: blue;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: green;
+} 
+
+p , #quote , #author {
+    font-family: "Times New Roman";
+    font-size: 2em;
+}
+p{
+    padding-block: 20px;
+}
+
+#quote {
+    margin-top: 30px;
+}
+#author {
+    margin-top: 10px;
+}
